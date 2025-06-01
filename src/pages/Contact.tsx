@@ -57,15 +57,15 @@ const Contact = () => {
       title: "Office Address",
       details: [
         "Seed Distribution Company",
-        "Pune, Maharashtra",
-        "India - 411001"
+        "Hyderabad, Telangana",
+        "India - 500001"
       ]
     },
     {
       icon: <Phone className="w-6 h-6 text-green-600" />,
       title: "Phone Numbers",
       details: [
-        "Main Office: +91 20 1234 5678",
+        "Main Office: +91 40 1234 5678",
         "Mobile: +91 98765 43210",
         "WhatsApp: +91 98765 43210"
       ]
@@ -136,10 +136,10 @@ const Contact = () => {
                           <SelectValue placeholder="Select your district" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="pune">Pune</SelectItem>
-                          <SelectItem value="nashik">Nashik</SelectItem>
-                          <SelectItem value="aurangabad">Aurangabad</SelectItem>
-                          <SelectItem value="ahmednagar">Ahmednagar</SelectItem>
+                          <SelectItem value="hyderabad">Hyderabad</SelectItem>
+                          <SelectItem value="rangareddy">Rangareddy</SelectItem>
+                          <SelectItem value="medak">Medak</SelectItem>
+                          <SelectItem value="sangareddy">Sangareddy</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
                       </Select>
@@ -280,7 +280,7 @@ const Contact = () => {
             <CardHeader>
               <CardTitle>Find Our Office</CardTitle>
               <p className="text-gray-600">
-                Visit us at our Pune office for personalized consultation
+                Visit us at our Hyderabad office for personalized consultation
               </p>
             </CardHeader>
             <CardContent>
@@ -290,7 +290,7 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Office Location</h3>
                   <p className="text-gray-600">
                     Seed Distribution Company<br />
-                    Pune, Maharashtra<br />
+                    Hyderabad, Telangana<br />
                     <span className="text-sm">Interactive Google Map will be embedded here</span>
                   </p>
                 </div>

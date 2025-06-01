@@ -37,7 +37,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Our Company</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Nearly three decades of dedicated service to the farming community across Maharashtra
+            Nearly three decades of dedicated service to the farming community across Telangana
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ const About = () => {
                 <p>
                   Since 1996, we have proudly served as an authorized distributor for 
                   leading agricultural seed companies, bringing high-quality 
-                  agricultural seeds to farmers across Maharashtra.
+                  agricultural seeds to farmers across Telangana.
                 </p>
                 <p>
                   Our journey began with a simple mission: to empower local farmers 
@@ -61,8 +61,8 @@ const About = () => {
                   community, understanding their unique challenges and requirements.
                 </p>
                 <p>
-                  Today, we cover Pune, Nashik, Aurangabad, and parts of 
-                  Ahmednagar districts, serving thousands of farmers with reliable seed 
+                  Today, we cover Hyderabad, Rangareddy, Medak, and Sangareddy 
+                  districts, serving thousands of farmers with reliable seed 
                   distribution and comprehensive agricultural support.
                 </p>
                 <p>
@@ -129,7 +129,7 @@ const About = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
                 <p className="text-gray-700">
-                  To be the most trusted partner for farmers in Maharashtra, fostering 
+                  To be the most trusted partner for farmers in Telangana, fostering 
                   agricultural growth through innovation, quality, and unwavering 
                   commitment to farmer success.
                 </p>

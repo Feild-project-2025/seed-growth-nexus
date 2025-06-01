@@ -17,16 +17,16 @@ const Footer = () => {
             </div>
             <p className="text-gray-300 mb-4">
               Authorized distributor for quality seed suppliers, serving farmers across 
-              multiple regions with premium seeds since 1996.
+              Telangana with premium seeds since 1996.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-green-400" />
-                <span className="text-sm text-gray-300">Sample City, Sample State</span>
+                <span className="text-sm text-gray-300">Hyderabad, Telangana</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-green-400" />
-                <span className="text-sm text-gray-300">+91 12345 67890</span>
+                <span className="text-sm text-gray-300">+91 40 1234 5678</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Bell className="w-4 h-4 text-green-400" />

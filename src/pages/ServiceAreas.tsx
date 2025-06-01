@@ -7,22 +7,22 @@ import { MapPin, Truck, CheckCircle } from "lucide-react";
 const ServiceAreas = () => {
   const districts = [
     {
-      name: "Pune",
+      name: "Hyderabad",
       description: "Comprehensive coverage including urban periphery and rural farming areas",
       highlights: ["Urban-rural farming", "Vegetable cultivation", "Commercial crops"]
     },
     {
-      name: "Nashik",
+      name: "Rangareddy",
       description: "Serving traditional agricultural regions with diverse crop patterns", 
       highlights: ["Rice cultivation", "Cotton farming", "Horticulture"]
     },
     {
-      name: "Aurangabad",
+      name: "Medak",
       description: "Supporting dryland farming and sustainable agriculture practices",
       highlights: ["Dryland crops", "Pulses", "Millets"]
     },
     {
-      name: "Ahmednagar (Partial)",
+      name: "Sangareddy",
       description: "Selected areas with focus on emerging agricultural opportunities",
       highlights: ["Mixed farming", "Dairy support", "Crop diversification"]
     }
@@ -55,7 +55,7 @@ const ServiceAreas = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Service Areas</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Delivering high-quality seeds to farmers across four key districts in Maharashtra
+            Delivering high-quality seeds to farmers across four key districts in Telangana
           </p>
         </div>
       </section>
@@ -119,22 +119,22 @@ const ServiceAreas = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Service Area Map</h3>
                 <p className="text-gray-600">
                   Interactive map showing our delivery coverage across<br />
-                  Pune • Nashik • Aurangabad • Ahmednagar districts
+                  Hyderabad • Rangareddy • Medak • Sangareddy districts
                 </p>
               </div>
               
               {/* District Markers */}
               <div className="absolute top-4 left-4 bg-white p-2 rounded shadow">
-                <span className="text-sm font-medium">Ahmednagar</span>
+                <span className="text-sm font-medium">Sangareddy</span>
               </div>
               <div className="absolute top-8 right-8 bg-white p-2 rounded shadow">
-                <span className="text-sm font-medium">Pune</span>
+                <span className="text-sm font-medium">Hyderabad</span>
               </div>
               <div className="absolute bottom-8 left-8 bg-white p-2 rounded shadow">
-                <span className="text-sm font-medium">Aurangabad</span>
+                <span className="text-sm font-medium">Medak</span>
               </div>
               <div className="absolute bottom-4 right-4 bg-white p-2 rounded shadow">
-                <span className="text-sm font-medium">Nashik</span>
+                <span className="text-sm font-medium">Rangareddy</span>
               </div>
             </div>
           </div>
@@ -212,7 +212,7 @@ const ServiceAreas = () => {
               <div className="flex items-center space-x-3">
                 <span className="text-green-600">📞</span>
                 <div>
-                  <p className="font-medium">Call: +91 20 1234 5678</p>
+                  <p className="font-medium">Call: +91 40 1234 5678</p>
                   <p className="text-sm text-gray-600">Speak with our delivery team</p>
                 </div>
               </div>

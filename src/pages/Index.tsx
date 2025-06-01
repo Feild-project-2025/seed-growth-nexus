@@ -33,12 +33,12 @@ const Index = () => {
     {
       quote: "Using these seeds boosted my yield by 20%. The quality is consistently excellent.",
       farmer: "Rajesh Kumar",
-      location: "Pune District"
+      location: "Rangareddy District"
     },
     {
       quote: "Their agronomic support helped me choose the right variety for my soil type.",
       farmer: "Sunitha Devi",
-      location: "Nashik District"
+      location: "Medak District"
     }
   ];
 
@@ -56,7 +56,7 @@ const Index = () => {
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
               Your reliable partner in agriculture since 1996. Quality seeds, expert guidance, 
-              and local support across Maharashtra districts.
+              and local support across Telangana districts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/products">
@@ -79,11 +79,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Supporting Agriculture Across Maharashtra
+              Supporting Agriculture Across Telangana
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               As an authorized distributor for leading seed companies, we've been serving 
-              farmers in Pune, Nashik, Aurangabad, and parts of Ahmednagar districts 
+              farmers in Hyderabad, Rangareddy, Medak, and Sangareddy districts 
               with dedication and expertise.
             </p>
           </div>

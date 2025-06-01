@@ -26,10 +26,10 @@ const Register = () => {
   const { toast } = useToast();
 
   const districts = [
-    "Pune",
-    "Nashik", 
-    "Aurangabad",
-    "Ahmednagar"
+    "Hyderabad",
+    "Rangareddy", 
+    "Medak",
+    "Sangareddy"
   ];
 
   const handleInputChange = (field: string, value: string) => {
