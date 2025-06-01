@@ -11,26 +11,26 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">K</span>
+                <span className="text-white font-bold text-lg">S</span>
               </div>
-              <span className="text-xl font-bold">Kaveri Seeds Distributor</span>
+              <span className="text-xl font-bold">Seed Distribution Company</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Authorized distributor for M/s Kaveri Seed Company Ltd, serving farmers across 
-              Telangana with quality seeds since 1996.
+              Authorized distributor for quality seed suppliers, serving farmers across 
+              multiple regions with premium seeds since 1996.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-green-400" />
-                <span className="text-sm text-gray-300">Secunderabad, Telangana</span>
+                <span className="text-sm text-gray-300">Sample City, Sample State</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-green-400" />
-                <span className="text-sm text-gray-300">+91 40 1234 5678</span>
+                <span className="text-sm text-gray-300">+91 12345 67890</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Bell className="w-4 h-4 text-green-400" />
-                <span className="text-sm text-gray-300">info@kaveriseedsdist.com</span>
+                <span className="text-sm text-gray-300">info@seedcompany.com</span>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Kaveri Seeds Distributor. All rights reserved. | Serving farmers since 1996
+            © 2024 Seed Distribution Company. All rights reserved. | Serving farmers since 1996
           </p>
         </div>
       </div>
