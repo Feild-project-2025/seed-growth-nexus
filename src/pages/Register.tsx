@@ -26,10 +26,10 @@ const Register = () => {
   const { toast } = useToast();
 
   const districts = [
-    "Ranga Reddy",
-    "Nalgonda", 
-    "Mahabubnagar",
-    "Medak"
+    "Pune",
+    "Nashik", 
+    "Aurangabad",
+    "Ahmednagar"
   ];
 
   const handleInputChange = (field: string, value: string) => {
@@ -55,7 +55,7 @@ const Register = () => {
       setIsLoading(false);
       toast({
         title: "Account Created Successfully!",
-        description: "Welcome to Kaveri Seeds Distributor. You can now sign in.",
+        description: "Welcome to Seed Distribution Company. You can now sign in.",
       });
       navigate("/login");
     }, 2000);

@@ -4,34 +4,46 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Handshake, MapPin, Calendar, CheckCircle } from "lucide-react";
+
 const Index = () => {
-  const features = [{
-    icon: <Handshake className="w-8 h-8 text-green-600" />,
-    title: "Partnered with Kaveri Seeds",
-    description: "Authorized distributor ensuring authentic, high-quality seeds"
-  }, {
-    icon: <Calendar className="w-8 h-8 text-green-600" />,
-    title: "Established in 1996",
-    description: "Nearly three decades of trusted service to local farmers"
-  }, {
-    icon: <MapPin className="w-8 h-8 text-green-600" />,
-    title: "Locally Trusted",
-    description: "Deep understanding of regional farming needs and conditions"
-  }, {
-    icon: <CheckCircle className="w-8 h-8 text-green-600" />,
-    title: "On-time Deliveries",
-    description: "Reliable distribution network across all service districts"
-  }];
-  const testimonials = [{
-    quote: "Using these seeds boosted my yield by 20%. The quality is consistently excellent.",
-    farmer: "Rajesh Kumar",
-    location: "Ranga Reddy District"
-  }, {
-    quote: "Their agronomic support helped me choose the right variety for my soil type.",
-    farmer: "Sunitha Devi",
-    location: "Nalgonda District"
-  }];
-  return <div className="min-h-screen bg-white">
+  const features = [
+    {
+      icon: <Handshake className="w-8 h-8 text-green-600" />,
+      title: "Partnered with Leading Suppliers",
+      description: "Authorized distributor ensuring authentic, high-quality seeds"
+    },
+    {
+      icon: <Calendar className="w-8 h-8 text-green-600" />,
+      title: "Established in 1996",
+      description: "Nearly three decades of trusted service to local farmers"
+    },
+    {
+      icon: <MapPin className="w-8 h-8 text-green-600" />,
+      title: "Locally Trusted",
+      description: "Deep understanding of regional farming needs and conditions"
+    },
+    {
+      icon: <CheckCircle className="w-8 h-8 text-green-600" />,
+      title: "On-time Deliveries",
+      description: "Reliable distribution network across all service districts"
+    }
+  ];
+
+  const testimonials = [
+    {
+      quote: "Using these seeds boosted my yield by 20%. The quality is consistently excellent.",
+      farmer: "Rajesh Kumar",
+      location: "Pune District"
+    },
+    {
+      quote: "Their agronomic support helped me choose the right variety for my soil type.",
+      farmer: "Sunitha Devi",
+      location: "Nashik District"
+    }
+  ];
+
+  return (
+    <div className="min-h-screen bg-white">
       <Navigation />
       
       {/* Hero Section */}
@@ -44,7 +56,7 @@ const Index = () => {
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
               Your reliable partner in agriculture since 1996. Quality seeds, expert guidance, 
-              and local support across Telangana districts.
+              and local support across Maharashtra districts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/products">
@@ -67,17 +79,18 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Supporting Agriculture Across Telangana
+              Supporting Agriculture Across Maharashtra
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              As an authorized distributor for Kaveri Seed Company Ltd, we've been serving 
-              farmers in Ranga Reddy, Nalgonda, Mahabubnagar, and parts of Medak districts 
+              As an authorized distributor for leading seed companies, we've been serving 
+              farmers in Pune, Nashik, Aurangabad, and parts of Ahmednagar districts 
               with dedication and expertise.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.map((feature, index) => <Card key={index} className="text-center hover:shadow-lg transition-shadow">
+            {features.map((feature, index) => (
+              <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <div className="flex justify-center mb-4">
                     {feature.icon}
@@ -85,7 +98,8 @@ const Index = () => {
                   <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
                   <p className="text-gray-600">{feature.description}</p>
                 </CardContent>
-              </Card>)}
+              </Card>
+            ))}
           </div>
         </div>
       </section>
@@ -161,7 +175,8 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial, index) => <Card key={index} className="bg-white">
+            {testimonials.map((testimonial, index) => (
+              <Card key={index} className="bg-white">
                 <CardContent className="p-8">
                   <blockquote className="text-lg text-gray-700 mb-4 italic">
                     "{testimonial.quote}"
@@ -169,7 +184,8 @@ const Index = () => {
                   <div className="font-semibold text-gray-900">{testimonial.farmer}</div>
                   <div className="text-gray-600">{testimonial.location}</div>
                 </CardContent>
-              </Card>)}
+              </Card>
+            ))}
           </div>
         </div>
       </section>
@@ -197,6 +213,8 @@ const Index = () => {
       </section>
 
       <Footer />
-    </div>;
+    </div>
+  );
 };
+
 export default Index;

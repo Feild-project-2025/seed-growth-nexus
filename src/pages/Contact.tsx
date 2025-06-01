@@ -56,16 +56,16 @@ const Contact = () => {
       icon: <MapPin className="w-6 h-6 text-green-600" />,
       title: "Office Address",
       details: [
-        "Kaveri Seeds Distributor",
-        "Secunderabad, Telangana",
-        "India - 500003"
+        "Seed Distribution Company",
+        "Pune, Maharashtra",
+        "India - 411001"
       ]
     },
     {
       icon: <Phone className="w-6 h-6 text-green-600" />,
       title: "Phone Numbers",
       details: [
-        "Main Office: +91 40 1234 5678",
+        "Main Office: +91 20 1234 5678",
         "Mobile: +91 98765 43210",
         "WhatsApp: +91 98765 43210"
       ]
@@ -74,9 +74,9 @@ const Contact = () => {
       icon: <Bell className="w-6 h-6 text-green-600" />,
       title: "Email & Online",
       details: [
-        "info@kaveriseedsdist.com",
-        "orders@kaveriseedsdist.com",
-        "support@kaveriseedsdist.com"
+        "info@seedcompany.com",
+        "orders@seedcompany.com",
+        "support@seedcompany.com"
       ]
     }
   ];
@@ -136,10 +136,10 @@ const Contact = () => {
                           <SelectValue placeholder="Select your district" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="ranga-reddy">Ranga Reddy</SelectItem>
-                          <SelectItem value="nalgonda">Nalgonda</SelectItem>
-                          <SelectItem value="mahabubnagar">Mahabubnagar</SelectItem>
-                          <SelectItem value="medak">Medak</SelectItem>
+                          <SelectItem value="pune">Pune</SelectItem>
+                          <SelectItem value="nashik">Nashik</SelectItem>
+                          <SelectItem value="aurangabad">Aurangabad</SelectItem>
+                          <SelectItem value="ahmednagar">Ahmednagar</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
                       </Select>
@@ -280,7 +280,7 @@ const Contact = () => {
             <CardHeader>
               <CardTitle>Find Our Office</CardTitle>
               <p className="text-gray-600">
-                Visit us at our Secunderabad office for personalized consultation
+                Visit us at our Pune office for personalized consultation
               </p>
             </CardHeader>
             <CardContent>
@@ -289,8 +289,8 @@ const Contact = () => {
                   <div className="text-6xl mb-4">📍</div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Office Location</h3>
                   <p className="text-gray-600">
-                    Kaveri Seeds Distributor<br />
-                    Secunderabad, Telangana<br />
+                    Seed Distribution Company<br />
+                    Pune, Maharashtra<br />
                     <span className="text-sm">Interactive Google Map will be embedded here</span>
                   </p>
                 </div>

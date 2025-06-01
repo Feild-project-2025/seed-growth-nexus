@@ -37,7 +37,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Our Company</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Nearly three decades of dedicated service to the farming community across Telangana
+            Nearly three decades of dedicated service to the farming community across Maharashtra
           </p>
         </div>
       </section>
@@ -51,8 +51,8 @@ const About = () => {
               <div className="space-y-4 text-gray-700">
                 <p>
                   Since 1996, we have proudly served as an authorized distributor for 
-                  M/s Kaveri Seed Company Ltd, Secunderabad, bringing high-quality 
-                  agricultural seeds to farmers across Telangana.
+                  leading agricultural seed companies, bringing high-quality 
+                  agricultural seeds to farmers across Maharashtra.
                 </p>
                 <p>
                   Our journey began with a simple mission: to empower local farmers 
@@ -61,12 +61,12 @@ const About = () => {
                   community, understanding their unique challenges and requirements.
                 </p>
                 <p>
-                  Today, we cover Ranga Reddy, Nalgonda, Mahabubnagar, and parts of 
-                  Medak districts, serving thousands of farmers with reliable seed 
+                  Today, we cover Pune, Nashik, Aurangabad, and parts of 
+                  Ahmednagar districts, serving thousands of farmers with reliable seed 
                   distribution and comprehensive agricultural support.
                 </p>
                 <p>
-                  Our partnership with Kaveri Seed Company Ltd ensures that we offer 
+                  Our partnerships with leading seed companies ensure that we offer 
                   only the finest varieties, backed by extensive research and proven 
                   performance in local conditions.
                 </p>
@@ -80,7 +80,7 @@ const About = () => {
                   <div className="w-4 h-4 bg-green-600 rounded-full mt-2"></div>
                   <div>
                     <div className="font-semibold text-gray-900">1996</div>
-                    <div className="text-gray-700">Established partnership with Kaveri Seed Company Ltd</div>
+                    <div className="text-gray-700">Established partnerships with leading seed companies</div>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -129,7 +129,7 @@ const About = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
                 <p className="text-gray-700">
-                  To be the most trusted partner for farmers in Telangana, fostering 
+                  To be the most trusted partner for farmers in Maharashtra, fostering 
                   agricultural growth through innovation, quality, and unwavering 
                   commitment to farmer success.
                 </p>
@@ -184,7 +184,7 @@ const About = () => {
               Our team combines decades of agricultural expertise with deep local knowledge. 
               From agronomists to distribution specialists, we work together to ensure every 
               farmer receives the support they need for successful harvests. Our collaborative 
-              approach with Kaveri Seed Company Ltd brings together the best of research, 
+              approach with leading seed companies brings together the best of research, 
               development, and on-ground experience.
             </p>
           </div>
