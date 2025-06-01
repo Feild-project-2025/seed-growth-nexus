@@ -1,50 +1,37 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Handshake, MapPin, Calendar, CheckCircle } from "lucide-react";
-
 const Index = () => {
-  const features = [
-    {
-      icon: <Handshake className="w-8 h-8 text-green-600" />,
-      title: "Partnered with Kaveri Seeds",
-      description: "Authorized distributor ensuring authentic, high-quality seeds"
-    },
-    {
-      icon: <Calendar className="w-8 h-8 text-green-600" />,
-      title: "Established in 1996",
-      description: "Nearly three decades of trusted service to local farmers"
-    },
-    {
-      icon: <MapPin className="w-8 h-8 text-green-600" />,
-      title: "Locally Trusted",
-      description: "Deep understanding of regional farming needs and conditions"
-    },
-    {
-      icon: <CheckCircle className="w-8 h-8 text-green-600" />,
-      title: "On-time Deliveries",
-      description: "Reliable distribution network across all service districts"
-    }
-  ];
-
-  const testimonials = [
-    {
-      quote: "Using these seeds boosted my yield by 20%. The quality is consistently excellent.",
-      farmer: "Rajesh Kumar",
-      location: "Ranga Reddy District"
-    },
-    {
-      quote: "Their agronomic support helped me choose the right variety for my soil type.",
-      farmer: "Sunitha Devi",
-      location: "Nalgonda District"
-    }
-  ];
-
-  return (
-    <div className="min-h-screen bg-white">
+  const features = [{
+    icon: <Handshake className="w-8 h-8 text-green-600" />,
+    title: "Partnered with Kaveri Seeds",
+    description: "Authorized distributor ensuring authentic, high-quality seeds"
+  }, {
+    icon: <Calendar className="w-8 h-8 text-green-600" />,
+    title: "Established in 1996",
+    description: "Nearly three decades of trusted service to local farmers"
+  }, {
+    icon: <MapPin className="w-8 h-8 text-green-600" />,
+    title: "Locally Trusted",
+    description: "Deep understanding of regional farming needs and conditions"
+  }, {
+    icon: <CheckCircle className="w-8 h-8 text-green-600" />,
+    title: "On-time Deliveries",
+    description: "Reliable distribution network across all service districts"
+  }];
+  const testimonials = [{
+    quote: "Using these seeds boosted my yield by 20%. The quality is consistently excellent.",
+    farmer: "Rajesh Kumar",
+    location: "Ranga Reddy District"
+  }, {
+    quote: "Their agronomic support helped me choose the right variety for my soil type.",
+    farmer: "Sunitha Devi",
+    location: "Nalgonda District"
+  }];
+  return <div className="min-h-screen bg-white">
       <Navigation />
       
       {/* Hero Section */}
@@ -66,7 +53,7 @@ const Index = () => {
                 </Button>
               </Link>
               <Link to="/agronomy">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-green-700 text-lg px-8">
+                <Button size="lg" variant="outline" className="border-white hover:bg-white text-lg px-8 text-green-700">
                   Get Expert Advice
                 </Button>
               </Link>
@@ -90,8 +77,7 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.map((feature, index) => (
-              <Card key={index} className="text-center hover:shadow-lg transition-shadow">
+            {features.map((feature, index) => <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
                   <div className="flex justify-center mb-4">
                     {feature.icon}
@@ -99,8 +85,7 @@ const Index = () => {
                   <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
                   <p className="text-gray-600">{feature.description}</p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -176,8 +161,7 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="bg-white">
+            {testimonials.map((testimonial, index) => <Card key={index} className="bg-white">
                 <CardContent className="p-8">
                   <blockquote className="text-lg text-gray-700 mb-4 italic">
                     "{testimonial.quote}"
@@ -185,8 +169,7 @@ const Index = () => {
                   <div className="font-semibold text-gray-900">{testimonial.farmer}</div>
                   <div className="text-gray-600">{testimonial.location}</div>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -205,7 +188,7 @@ const Index = () => {
               </Button>
             </Link>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-green-600">
+              <Button size="lg" variant="outline" className="border-white hover:bg-white text-green-600">
                 Contact Us
               </Button>
             </Link>
@@ -214,8 +197,6 @@ const Index = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
